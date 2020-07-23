@@ -65,7 +65,7 @@ There are two types of images:
 
 Image from Internet
 
-![A pretty tiger](Tiger.jpg)
+![A pretty tiger](images/Tiger.jpg)
 
 Image from current folder
 
@@ -81,7 +81,7 @@ Image from current folder
 
 [Cat]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
 
-[Tiger]: Tiger.jpg
+[Tiger]: images/Tiger.jpg
 
 ## Embeded object*
 
@@ -96,12 +96,93 @@ A blockquote is a sentence or paragraph that's been specially formatted to draw 
 
 ### Single paragraph
 
->"The sin of __doing nothing__ is the **deadliest** of all the seven sins. It has been said that for evil men to accomplish their purpose it is only necessary that good men should do nothing."
+>"The sin of __doing nothing__ is the **deadliest** of all the seven sins.  It has been said that for evil men to accomplish their purpose it is only necessary that good men should do nothing."
 
 ### Multiple paragraphs
 
 >In order to group multiple paragraph into one quotes you can use the symbol ( > ):
 >
-> - in the blank lines between the paragraphs
+>- in the blank lines between the paragraphs
 >
 >- and at the start of each paragraph
+>
+>       See, that was easy
+
+## list
+
+List are made using - or * interchangeably.
+
+And can be styled with both italic and bold. It's also possible to use a link or even an image.
+
+There are two types of lists (order list & unordered list).
+
+You can nest a list as far as you want.
+
+### Ordered list
+
+1. Step one
+2. Step two
+3. Step three
+
+### Unordered list
+
+- Chicken
+- Egg
+- Bread
+- Milk
+- Dates
+
+### Nested list
+
+#### Example 1
+
+1. Calculus
+    - A professor
+    - Has no hair
+    - Often wears green
+      1. Has a modern style in clothes
+         - Wear a Jacket
+2. Castafiore
+    - An opera singer
+    - Has white hair
+    - Is possibly mentally unwell
+
+#### Example 2
+
+1. Crack three eggs over a bowl.
+
+    Now, you're going to want to crack the eggs in such a way that you don't make a mess.
+
+    If you _do_ make a mess, use a towel to clean it up!
+
+2. Pour a gallon of milk into the bowl.
+
+    Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
+
+3. Rub the salmon vigorously with butter.
+
+   By "vigorous," we mean a strictly vertical motion. Julia Child once quipped:
+
+   > Up and down and all around, that's how butter on salmon goes.
+
+4. Drop the salmon into the egg-milk bowl.
+
+   Here are some techniques on salmon-dropping:
+
+   - Make sure no trout or children are present
+   - Use both hands
+   - Always have a towel nearby in case of messes
+
+#### Example 3
+
+- *Cat*
+  - ![sample](images/cat.png)
+  - [More pictures](https://www.google.com/search?q=cats)
+
+## Paragraphs
+
+You can add a new line in a paragraph  
+by adding two spaces at the end of each line.
+
+And here is a new paragraph wich is surrounded by blank spaces to seprate it from the other paragraphs.
+
