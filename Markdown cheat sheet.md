@@ -6,12 +6,10 @@ Markdown is a way to write content for the web. It is written in what people lik
 [Reference](https://www.markdowntutorial.com)
 
 - [Introduction](#introduction)
-- [Demonstration](#demonstration)
   - [headers](#headers)
   - [Style text](#style-text)
   - [Links](#links)
     - [Inline link](#inline-link)
-          - [Or even within a _header_](#or-even-within-a-header)
     - [Reference link](#reference-link)
   - [Images](#images)
     - [Inline image](#inline-image)
@@ -29,8 +27,6 @@ Markdown is a way to write content for the web. It is written in what people lik
       - [Example 3](#example-3)
   - [Paragraphs](#paragraphs)
 
-# Demonstration
-
 ## headers
 
 There are six levels of header with decreasing size, Which also can be styled with _italic_ *text*.
@@ -46,35 +42,50 @@ There are six levels of header with decreasing size, Which also can be styled wi
 
 ## Style text
 
-You can style your text as an:
+You can style almost **anywhere** in text as an:
 
-- italc text using a _single underscore_ or a *single asterisk*. (`*text*`), (`_text_`)
-- bold text using a  __double underscore__ or a **double asterisk**. (`__text__`), (`**text**`)
-- **_both at the same time_**. (`**_text_**`), (`__*text*__`)
+- italc text using a _single underscore_ or a *single asterisk*.
+  - (`*text*`), (`_text_`)
+- bold text using a  __double underscore__ or a **double asterisk**.
+  - (`__text__`), (`**text**`)
+- **_both at the same time_**.
+  - (`**_text_**`), (`__*text*__`)
 
 ## Links
 
 Links are used to refer to a website or a header.
 And there are two types of link:
 
-- Inline link: refer to a website or header in directly in the tag.
-- Reference link: refer to a website or header using a defind variable in the document.
+- [Inline link](#inline-link): refer to a website or header in directly in the tag.
+- [Reference link](#reference-link): refer to a website or header using a defind variable in the document.
+
+There are two types of links:
+
+- link to a website.
+  - `https://www.google.com`
+- link to an anchor/header in the document.
+  - `#links`
   
 ### Inline link
 
-You can make a link [**within** the sentence](www.google.com).
-###### Or even within [a _header_](www.google.com)
+```markdown
+[text](#links)
+```  
 
-[go to start of section](#demonstration)
+You can make a link to a website [within the sentence](www.google.com).
+
+or redirect to a [section](#Reference-link) in the current document.
 
 ### Reference link
 
-Here's [a link to something][link].
-Here's [yet another link][another-link].
-And now back to [the first link][link].
+```markdown
+[a link to github][link].
+[link]: www.github.com
+```
+
+with **Reference link** you can define the link anywhere in the document and use it when you need it. For example: Here's [a link to github][link]
 
 [link]: www.github.com
-[another-link]: www.google.com
 
 ## Images
 
@@ -82,12 +93,23 @@ Images are similar to links. with the only defference being that image are prefa
 
 There are two types of images:
 
-- Inline image
-- Reference image
-  
+- [Inline image](#inline-image)
+- [Reference image](#reference-image)
+
+Link to images comes in two forms :
+
+- local image
+  - `images/image.png`
+- image from the Internet
+  - `https://duckduckgo.com/assets/common/dax-logo.svg`
+
 ### Inline image
 
-![A pretty tiger](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+```markdown
+![tiger](images/Tiger.jpg)
+```
+
+![link](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
 
 Image from Internet
 
@@ -96,6 +118,11 @@ Image from Internet
 Image from current folder
 
 ### Reference image
+
+```markdown
+![cat][link].
+[link]: images/image.png
+```
 
 ![Orange cat][Cat]
 
@@ -106,7 +133,6 @@ Image from Internet
 Image from current folder
 
 [Cat]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
-
 [Tiger]: images/Tiger.jpg
 
 ## Embeded object*
