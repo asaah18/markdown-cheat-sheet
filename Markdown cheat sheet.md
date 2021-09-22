@@ -171,21 +171,33 @@ A blockquote is a sentence or paragraph that's been specially formatted to draw 
 
 ## list
 
-List are made using - or * interchangeably.
+List are made using `-` or `*` interchangeably.
 
 And can be styled with both italic and bold. It's also possible to use a link or even an image.
 
-There are two types of lists (order list & unordered list).
+There are two types of lists ([order list](#ordered-list) and [unordered list](#unordered-list)).
 
 You can nest a list as far as you want.
 
 ### Ordered list
+
+```markdown
+1. Step one
+2. Step two
+3. Step three
+```
 
 1. Step one
 2. Step two
 3. Step three
 
 ### Unordered list
+
+```markdown
+- item one
+- item two
+- item three
+```
 
 - Chicken
 - Egg
@@ -243,6 +255,6 @@ You can nest a list as far as you want.
 ## Paragraphs
 
 You can add a new line in a paragraph  
-by adding two spaces at the end of each line.
+by adding two spaces at the end of each line except the one with full stop.
 
 And here is a new paragraph wich is surrounded by blank spaces to seprate it from the other paragraphs.
