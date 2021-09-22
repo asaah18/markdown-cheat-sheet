@@ -16,8 +16,6 @@ Markdown is a way to write content for the web. It is written in what people lik
     - [Reference image](#reference-image)
   - [Embeded object*](#embeded-object)
   - [Blockquotes](#blockquotes)
-    - [Single paragraph](#single-paragraph)
-    - [Multiple paragraphs](#multiple-paragraphs)
   - [list](#list)
     - [Ordered list](#ordered-list)
     - [Unordered list](#unordered-list)
@@ -137,28 +135,39 @@ Image from current folder
 
 ## Embeded object*
 
+```markdown
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+```
+
 **important notice:** It is possible to embed an image or html file into markdown file. But it is not recommended, because it is not supported everywhere.
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
 
 this red cricle is an embeded object
+
 ## Blockquotes
+
+```markdown
+> first line
+> 
+> third line
+```
 
 A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader. Which also can be styled and contain IMG and LINK. For example:
 
-### Single paragraph
+- Single paragraph
 
->"The sin of __doing nothing__ is the **deadliest** of all the seven sins.  It has been said that for evil men to accomplish their purpose it is only necessary that good men should do nothing."
+  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus leo vitae orci finibus sagittis. Ut feugiat augue eget ante interdum, nec porttitor nunc feugiat. Nam ut sapien a libero consequat venenatis eu a nulla. Etiam gravida scelerisque nisl. Etiam pretium tempus nisi ac congue.
 
-### Multiple paragraphs
+- Multiple paragraphs
 
->In order to group multiple paragraph into one quotes you can use the symbol ( > ):
->
->- in the blank lines between the paragraphs
->
->- and at the start of each paragraph
->
->       See, that was easy
+  >In order to group multiple paragraph into one quotes you can use the symbol (`>`):
+  >
+  >- in the blank lines between the paragraphs
+  >
+  >- and at the start of each paragraph
+  >
+  > See, that was easy
 
 ## list
 
