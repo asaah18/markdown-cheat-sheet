@@ -8,12 +8,6 @@ Markdown is a way to write content for the web. It is written in what people lik
 - [Introduction](#introduction)
 - [Demonstration](#demonstration)
   - [headers](#headers)
-          - [Header *six*](#header-six)
-        - [Header *five*](#header-five)
-      - [Header *four*](#header-four)
-    - [Header *three*](#header-three)
-  - [Header *two*](#header-two)
-- [Header *one*](#header-one)
   - [Style text](#style-text)
   - [Links](#links)
     - [Inline link](#inline-link)
@@ -41,20 +35,22 @@ Markdown is a way to write content for the web. It is written in what people lik
 
 There are six levels of header with decreasing size, Which also can be styled with _italic_ *text*.
 
-###### Header *six*
-##### Header *five*
-#### Header *four*
-### Header *three*
-## Header *two*
+```markdown
 # Header *one*
+## Header *two*
+### Header *three*
+#### Header *four*
+##### Header *five*
+###### Header *six*
+```
 
 ## Style text
 
-You can style your text as :
+You can style your text as an:
 
-- italc text using a _single underscore_ or a *single asterisk*
-- bold text using a  __double underscore__ or a **double asterisk**
-- **_both_** __*at*__ *__the__* _**same time**_
+- italc text using a _single underscore_ or a *single asterisk*. (`*text*`), (`_text_`)
+- bold text using a  __double underscore__ or a **double asterisk**. (`__text__`), (`**text**`)
+- **_both at the same time_**. (`**_text_**`), (`__*text*__`)
 
 ## Links
 
