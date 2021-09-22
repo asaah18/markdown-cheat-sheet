@@ -138,10 +138,10 @@ Image from current folder
 ## Embeded object*
 
 **important notice:** It is possible to embed an image or html file into markdown file. But it is not recommended, because it is not supported everywhere.
-Like:
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
 
+this red cricle is an embeded object
 ## Blockquotes
 
 A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader. Which also can be styled and contain IMG and LINK. For example:
